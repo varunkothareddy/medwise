@@ -9,8 +9,8 @@ export default function HomePage() {
   return (
     <div className="min-h-screen flex flex-col">
       <Helmet>
-        <title>HealthHorizon | AI-Powered Healthcare Platform</title>
-        <meta name="description" content="Your intelligent healthcare companion for symptom analysis, doctor appointments, and medical guidance." />
+        <title>MediWise | AI-Powered Healthcare Platform</title>
+        <meta name="description" content="AI health analysis, real-time doctor appointments, medicine guidance with blood & organ donation support." />
       </Helmet>
 
       <main className="flex-1">
