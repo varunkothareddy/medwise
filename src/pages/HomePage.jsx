@@ -9,8 +9,8 @@ export default function HomePage() {
   return (
     <div className="min-h-screen flex flex-col">
       <Helmet>
-        <title>HealthHorizon | AI-Powered Healthcare Platform</title>
-        <meta name="description" content="Your intelligent healthcare companion for symptom analysis, doctor appointments, and medical guidance." />
+        <title>MediWise | AI-Powered Healthcare Platform</title>
+        <meta name="description" content="AI health analysis, real-time doctor appointments, medicine guidance with blood & organ donation support." />
       </Helmet>
 
       <main className="flex-1">
@@ -32,7 +32,7 @@ export default function HomePage() {
                   Your intelligent healthcare companion.
                 </h1>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-8 max-w-[65ch]">
-                  Get instant AI-driven health analysis, book appointments with top specialists, and receive personalized medical guidance—all in one secure platform.
+                  Get AI health analysis, book real doctor appointments, find medicines with purchase links, and access emergency blood & organ donation resources—all in one platform.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button size="lg" asChild className="h-12 px-8 text-base">
